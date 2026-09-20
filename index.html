@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official support page for CoinhakoLive - the privacy-first crypto investment journal for iOS.">
+    <title>CoinhakoLive - Support</title>
+    <style>
+        :root {
+            --bg: #0b0f17;
+            --surface: #121826;
+            --surface-2: #1a2233;
+            --primary: #4f8cff;
+            --primary-hover: #6aa0ff;
+            --text: #e8ecf4;
+            --text-muted: #9aa3b2;
+            --divider: #243049;
+            --gain: #2ecc71;
+            --loss: #ff5b6c;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 880px; margin: 0 auto; padding: 32px 24px 80px; }
+        header { text-align: center; padding: 48px 0 32px; }
+        .logo {
+            display: inline-flex; align-items: center; gap: 12px;
+            font-size: 32px; font-weight: 700; letter-spacing: -0.5px;
+        }
+        .logo-mark {
+            width: 44px; height: 44px; border-radius: 12px;
+            background: linear-gradient(135deg, var(--primary), #7c5cff);
+            display: inline-flex; align-items: center; justify-content: center;
+            font-size: 22px; font-weight: 800; color: #fff;
+            box-shadow: 0 8px 24px rgba(79, 140, 255, 0.35);
+        }
+        .tagline { color: var(--text-muted); margin-top: 8px; font-size: 15px; }
+        nav {
+            display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;
+            margin: 28px 0 12px;
+        }
+        nav a {
+            color: var(--text-muted); text-decoration: none;
+            padding: 8px 16px; border-radius: 999px;
+            background: var(--surface); border: 1px solid var(--divider);
+            font-size: 14px; transition: all .2s ease;
+        }
+        nav a:hover { color: var(--text); border-color: var(--primary); }
+        section {
+            background: var(--surface);
+            border: 1px solid var(--divider);
+            border-radius: 16px;
+            padding: 28px;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 22px; font-weight: 700; margin-bottom: 16px;
+            letter-spacing: -0.3px;
+        }
+        h3 { font-size: 17px; font-weight: 600; margin: 18px 0 8px; color: var(--text); }
+        p { color: var(--text-muted); margin-bottom: 12px; }
+        ul { margin: 8px 0 12px 20px; color: var(--text-muted); }
+        li { margin-bottom: 6px; }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { color: var(--primary-hover); text-decoration: underline; }
+        .contact-card {
+            background: linear-gradient(135deg, rgba(79, 140, 255, 0.12), rgba(124, 92, 255, 0.08));
+            border: 1px solid rgba(79, 140, 255, 0.3);
+            border-radius: 14px; padding: 24px; text-align: center;
+        }
+        .email-link {
+            display: inline-block; margin-top: 8px; font-size: 18px; font-weight: 600;
+            padding: 12px 24px; border-radius: 12px;
+            background: var(--primary); color: #fff;
+            transition: background .2s ease;
+        }
+        .email-link:hover { background: var(--primary-hover); text-decoration: none; color: #fff; }
+        .meta { color: var(--text-muted); font-size: 13px; margin-top: 8px; }
+        .pill {
+            display: inline-block; font-size: 12px; padding: 4px 10px;
+            background: var(--surface-2); border: 1px solid var(--divider);
+            border-radius: 999px; color: var(--text-muted); margin-right: 6px;
+        }
+        footer {
+            text-align: center; color: var(--text-muted); font-size: 13px;
+            margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--divider);
+        }
+        @media (max-width: 600px) {
+            .container { padding: 24px 16px 60px; }
+            section { padding: 20px; }
+            header { padding: 32px 0 20px; }
+            .logo { font-size: 26px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-mark">C</span>
+                <span>CoinhakoLive</span>
+            </div>
+            <p class="tagline">Privacy-first crypto investment journal for iOS</p>
+            <nav>
+                <a href="#overview">Overview</a>
+                <a href="#features">Features</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+            </nav>
+        </header>
+
+        <section id="overview">
+            <h2>Welcome to CoinhakoLive Support</h2>
+            <p>
+                CoinhakoLive is a sophisticated, on-device investment journal for serious crypto holders.
+                It helps you track every position, cost basis, and realized gain in one private place —
+                without logins, servers, or exchange connections.
+            </p>
+            <p>
+                This page is the official entry point for help, documentation, and contact information
+                for the CoinhakoLive iOS application. If you cannot find an answer below, please reach
+                out using the email listed in the Contact section.
+            </p>
+        </section>
+
+        <section id="features">
+            <h2>What CoinhakoLive Does</h2>
+            <ul>
+                <li>Interactive candlestick, line, and mountain charts across 8 timeframes</li>
+                <li>Complete portfolio engine that values holdings, models rebalancing scenarios, and projects DCA outcomes</li>
+                <li>Markets dashboard with global market cap, 24h volume, and BTC dominance</li>
+                <li>Sector sorting across Layer 1, Layer 2, DeFi, Stablecoin, Privacy, Meme, Storage, and AI</li>
+                <li>Market Sentiment card with fear-and-greed gauge, momentum, volatility, top movers, and heatmap</li>
+                <li>Performance curve, allocation donuts, per-holding P&amp;L, and what-if scenario engine</li>
+                <li>Plain-language educational insights on cost basis, DCA discipline, and chart reading</li>
+                <li>Local CSV export for all transactions, watchlists, and preferences</li>
+            </ul>
+            <p>
+                <span class="pill">No login</span>
+                <span class="pill">No server sync</span>
+                <span class="pill">No exchange connection</span>
+                <span class="pill">100% on-device</span>
+            </p>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>Does CoinhakoLive connect to my exchange?</h3>
+            <p>
+                No. CoinhakoLive does not connect to any exchange, brokerage, or wallet service. It is a
+                read-only investment journal. You add your own transactions manually or import them via CSV.
+            </p>
+
+            <h3>Where is my data stored?</h3>
+            <p>
+                All data is stored locally on your iOS device using secure on-device storage. Nothing is
+                uploaded to any server. Removing the app will permanently delete all stored data — please
+                export a CSV backup first if you wish to retain it.
+            </p>
+
+            <h3>Can I export my data?</h3>
+            <p>
+                Yes. From the Settings tab you can export your transactions, watchlist, and preferences
+                to CSV at any time. The export is generated entirely on-device.
+            </p>
+
+            <h3>Does CoinhakoLive provide financial advice?</h3>
+            <p>
+                No. All educational content, insights, and analytics are informational only and do not
+                constitute financial advice. Always do your own research before making investment decisions.
+            </p>
+
+            <h3>Is CoinhakoLive a trading app?</h3>
+            <p>
+                No. CoinhakoLive is a portfolio tracking and journaling tool. It does not place, route,
+                or execute any trades and is compliant with Apple's Guideline 5.6 for non-trading crypto apps.
+            </p>
+
+            <h3>Which iOS versions are supported?</h3>
+            <p>
+                CoinhakoLive is built natively in SwiftUI for iOS. Please check the App Store listing
+                for the current minimum iOS version.
+            </p>
+
+            <h3>How do I report a bug or request a feature?</h3>
+            <p>
+                Send an email to the address in the Contact section below. Please include your iOS
+                version, device model, and a clear description of the issue or suggestion.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Support</h2>
+            <div class="contact-card">
+                <p style="color: var(--text); margin-bottom: 4px;">For all support requests, please email:</p>
+                <a class="email-link" href="mailto:selmabarankolay@gmail.com">selmabarankolay@gmail.com</a>
+                <p class="meta">We aim to respond within 3 business days.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 CoinhakoLive. All rights reserved.</p>
+            <p style="margin-top: 6px;">
+                <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+                <a href="terms.html">Terms of Use</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
